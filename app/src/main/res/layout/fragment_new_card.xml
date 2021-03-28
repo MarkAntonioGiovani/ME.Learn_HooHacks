@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:id="@+id/txtVwHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/cambay"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtVwFrontTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/front"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edTxtFront"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Type in Front text"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:id="@+id/txtVwBackTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/back"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edTxtBack"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Type in Back text"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/btnAddCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:text="Add card"
+            app:backgroundTint="#001E70" />
+        
+    </LinearLayout>
+
+</RelativeLayout>

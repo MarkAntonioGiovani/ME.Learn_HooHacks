@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtVwFrontTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/front"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtVwFrontFront"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:text="FRONT TEXT" />
+
+        <TextView
+            android:id="@+id/txtVwBackTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/back"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtVwBack"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:text="BACK TEXT" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

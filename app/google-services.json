@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "873248814004",
+    "project_id": "melearn-3cbe2",
+    "storage_bucket": "melearn-3cbe2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873248814004:android:df4224aa1b54faaccef8e1",
+        "android_client_info": {
+          "package_name": "com.example.melearn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873248814004-qj1qvbbtvj0161r8817t6dgu2o5e8lr5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_nKPaIlAleUd64sA2_9nufpjfnlwTwfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873248814004-qj1qvbbtvj0161r8817t6dgu2o5e8lr5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
