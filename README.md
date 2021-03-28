@@ -1,4 +1,5 @@
 # ME.Learn_HooHacks
+Attendance on HooHacks 2021
 Initial repo is: https://github.com/MarkAntonioGiovani/MELearn
 Since we got some problems with git and ran out of time we needed to open a new repository.
 
